@@ -2,6 +2,17 @@ import java.util.Scanner;
 
 public class Mahasiswa10 {
 
+          public Mahasiswa10() {
+    }
+
+    
+    public Mahasiswa10(String nm, String nim, double ipk, String kls) {
+        this.nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        this.kelas = kls;
+    }
+
 
         Scanner sc = new Scanner(System.in);
         String nama;
@@ -9,6 +20,9 @@ public class Mahasiswa10 {
         String kelas;
         double ipk;
 
+         
+
+   
         void tampilkanInformasi() {
             System.out.println("Nama: " +nama);
             System.out.println("NIM: " +nim);
@@ -38,7 +52,10 @@ public class Mahasiswa10 {
                 return "Kinerja Kurang";
             }
                 
-        }
+        } 
+        
+        
 
     
     }
+    
