@@ -16,6 +16,10 @@ public class MahasiswaMain10{
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
 
+        Mahasiswa10 mhsFarrell = new Mahasiswa10("Farrell Raissa Ermanto", "254107060150", 3.80, "SIB 1E");
+        mhsFarrell.updateIpk(4.00);
+        mhsFarrell.tampilkanInformasi();
+
        
     }
 }
